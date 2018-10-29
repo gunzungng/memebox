@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>全球No.1韩国化妆品平台-美美箱Memebox</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/HomePage.css"/>
+		<script src="js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-3.0.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/publicJavascript.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/HomePageJavascript.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--以下为公共头部样式-->
+		<div class="header">
+			<!----------------->
+			<div class="header_top">
+				<div class="header_top_left">
+					<span><a href="#"><i class="newhome_icon" id="topLogo_1"></i>100%韩国正品美美箱</a></span>
+					<span><a href="#"><i class="newhome_icon"  id="topLogo_2"></i><i class="top_left_underline">[每日签到]</i>&nbsp;&nbsp;每月累计签到满10次，即可获得5蜜豆</a></span>
+				</div>
+				<div class="header_top_right">
+					<span><a href="login.html">登录</a></span>
+					<span><a href="register.html">注册</a></span>
+					<span>|</span>
+					<span><a href="#"><i class="newhome_icon" id="topLogo_3"></i>手机APP</a></span>
+					<span><a href="#"><i class="newhome_icon" id="topLogo_4"></i>&nbsp;在线客服</a></span>
+				</div>
+			</div>
+			<!---------------->
+			<div class="header_middle">
+				<div class="header_search">
+					<h3><a href="HomePage.html"><img src="img/HomePage-img/new-logo_memebox-china.png"/></a></h3>
+					<div class="search_box">
+						<input type="text" id="search" value="" /><i class="newhome_icon" id="searchLogo"></i>
+					</div>
+					<div class="downlord_box">
+						<a href="#">
+						<i></i>
+						<div class="QRcode">
+							
+						</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!---------------->
+			<div class="header_bottom">
+				<div class="nav">
+					<ul>
+						<li><a href="#" id="firstA"><span><i class="goodsListLogo"></i>商品分类</span></a></li>
+						<li><a href="HomePage.html" title="主页" class="choose"><span>主页</span></a></li>
+						<li><a href="#" title="尖货"><span>尖货<i class="newhome_icon" id="navLogo_1"></i></span></a></li>
+						<li><a href="#" title="面膜"><span>面膜</span></a>
+							<ul class="nav_hideNav">
+							<li><a href="#" title="Leaders/Mediheal专区">Leaders/Mediheal专区</a></li>
+							<li><a href="#" title="Innisfree面膜专区">Innisfree面膜专区</a></li>
+							<li><a href="#" title="补水面膜专区">补水面膜专区</a></li>
+							<li><a href="#" title="美白面膜专区">美白面膜专区</a></li>
+							<li><a href="#" title="祛痘修复面膜专区">祛痘修复面膜专区</a></li>
+							<li><a href="#" title="动物面膜专区">动物面膜专区</a></li>
+							<li><a href="#" title="面膜 icon 9.19">面膜&nbsp;icon&nbsp;9.19</a></li>
+						</ul>
+						</li>
+						<li><a href="#" title="新货"><span>新货<i class="newhome_icon" id="navLogo_2"></i></span></a></li>
+						<li><a href="#" title="保税仓"><span>保税仓</span></a></li>
+						<li><a href="#" title="直邮"><span>直邮</span></a>
+							<ul class="nav_hideNav">
+							<li><a href="#" title="直邮礼盒">直邮礼盒</a></li>
+							<li><a href="#" title="韩国新品抢先购">韩国新品抢先购</a></li>
+							<li><a href="#" title="韩国热卖套组专场">韩国热卖套组专场</a></li>
+							<li><a href="#" title="韩国免税店专卖">韩国免税店专卖</a></li>
+							<li><a href="#" title="夏季护肤">夏季护肤</a></li>
+							<li><a href="#" title="夏季底妆">夏季底妆</a></li>
+							<li><a href="#" title="面膜">面膜</a></li>
+							<li><a href="#" title="夏日大促销">夏日大促销</a></li>
+							<li><a href="#" title="卡通系列促销">卡通系列促销</a></li>
+							<li><a href="#" title="Top 30 promotion">Top&nbsp;30&nbsp;promotion</a></li>
+							</ul>
+						</li>
+						<li><a href="#" title="礼盒"><span>礼盒</span></a></li>
+						<li><a href="#" title="PONY"><span>PONY</span></a>
+							<ul class="nav_hideNav">
+							<li><a href="#" title="PONY EFFECT">PONY&nbsp;EFFECT</a></li>
+							<li><a href="#" title="假日限量系列">假日限量系列</a></li>
+							<li><a href="#" title="PONY新品">PONY新品</a></li>
+							<li><a href="#" title="PONY X MEMEBOX">PONY&nbsp;X&nbsp;MEMEBOX</a></li>
+							<li><a href="#" title="超值套装">超值套装</a></li>
+						</ul>
+						</li>
+						<li><a href="#" title="美美妆"><span>美美妆</span></a></li>
+						<li><a href="#" title="I'M MEME"><span>I'M&nbsp;MEME</span></a>
+							<ul class="nav_hideNav">
+							<li><a href="#" title="我爱眼妆">我爱眼妆</a></li>
+							<li><a href="#" title="假日限量系列">我爱唇妆</a></li>
+							<li><a href="#" title="我爱底妆">我爱底妆</a></li>
+							<li><a href="#" title="我爱腮红">我爱腮红</a></li>
+							<li><a href="#" title="我爱气垫">我爱气垫</a></li>
+							<li><a href="#" title="我爱眉妆">我爱眉妆</a></li>
+							<li><a href="#" title="我爱卸妆">我爱卸妆</a></li>
+							<li><a href="#" title="我爱美甲">我爱美甲</a></li>
+							<li><a href="#" title="我爱工具">我爱工具</a></li>
+						</ul>
+						</li>
+						<li><a href="#" title="K-BEAUTY STYLE"><span>K-BEAUTY&nbsp;STYLE<i class="newhome_icon" id="navLogo_3"></i></span></a></li>
+					</ul>
+				</div>
+			</div>
+			</div>
+			<!--以上是公共头部样式------->
+			
+			<!--以下是轮播图部分-->
+			<div class="header_CarouselFigure">
+				<!--以下是轮播图-->
+				<div id="lunboBox">
+					<ul id="list">
+						<!--<li><a href="#"><img src="img/b3.jpg" /></a></li>-->
+					</ul>
+					<ul id="list2">
+						<!--<li></li>-->
+					</ul>
+				<!--<div id="left">上一页</div>
+				<div id="right">下一页</div>此处不用-->
+					
+				</div>
+				
+				<!--以下是左边竖排nav-->
+				<div class="leftnav">
+					<ul>
+					<li><a href="#">面膜</a>
+						<ul class="hideNav">
+							<li><a href="#">贴片式面膜</a></li>
+							<li><a href="#">免洗面膜</a></li>
+							<li><a href="#">水洗面膜</a></li>
+							<li><a href="#">撕拉面膜</a></li>
+							<li><a href="#">其他</a></li>
+						</ul>
+					</li>
+					<li><a href="#">洁面卸妆</a>
+						<ul class="hideNav">
+							<li><a href="#">洁面乳</a></li>
+							<li><a href="#">面部去角质/磨砂</a></li>
+							<li><a href="#">洁面膏/皂/粉</a></li>
+							<li><a href="#">洁面啫喱/慕斯</a></li>
+							<li><a href="#">卸妆</a></li>
+							<li><a href="#">其他</a></li>
+						</ul>
+					</li>
+					<li><a href="#">水乳/面霜/精华</a>
+						<ul class="hideNav">
+							<li><a href="#">爽肤水</a></li>
+							<li><a href="#">精华</a></li>
+							<li><a href="#">乳液</a></li>
+							<li><a href="#">面霜</a></li>
+							<li><a href="#">其他</a></li>
+						</ul>
+					</li>
+					<li><a href="#">个人护理</a>
+						<ul class="hideNav">
+							<li><a href="#">防晒</a></li>
+							<li><a href="#">沐浴</a></li>
+							<li><a href="#">洗护/美发</a></li>
+							<li><a href="#">口腔护理</a></li>
+							<li><a href="#">身体护理</a></li>
+							<li><a href="#">纤细美体</a></li>
+							<li><a href="#">精油护理</a></li>
+							<li><a href="#">私密护理</a></li>
+							<li><a href="#">其他</a></li>
+						</ul>
+					</li>
+					<li><a href="#">底妆/修容</a>
+						<ul class="hideNav">
+							<li><a href="#">隔离霜</a></li>
+							<li><a href="#">BB/CC霜</a></li>
+							<li><a href="#">粉底/遮瑕</a></li>
+							<li><a href="#">粉饼/蜜饼/散粉</a></li>
+							<li><a href="#">腮红/高光/修容</a></li>
+							<li><a href="#">防晒</a></li>
+							<li><a href="#">其他</a></li>
+						</ul>
+					</li>
+					<li><a href="#">眼唇彩妆</a>
+						<ul class="hideNav">
+							<li><a href="#">眼线笔/液/膏</a></li>
+							<li><a href="#">睫毛膏/增长液</a></li>
+							<li><a href="#">眼影</a></li>
+							<li><a href="#">唇彩/蜜/釉/染唇膏</a></li>
+							<li><a href="#">口红</a></li>
+							<li><a href="#">眉笔/染眉/眉粉</a></li>
+							<li><a href="#">假睫毛</a></li>
+							<li><a href="#">眼唇护理</a></li>
+							<li><a href="#">其他</a></li>
+						</ul>
+					</li>
+					<li><a href="#">美甲护甲</a>
+						<ul class="hideNav">
+							<li><a href="#">指甲油</a></li>
+							<li><a href="#">其他</a></li>
+						</ul>
+					</li>
+					<li><a href="#">美护工具</a>
+						<ul class="hideNav">
+							<li><a href="#">化妆刷</a></li>
+							<li><a href="#">洁面工具</a></li>
+							<li><a href="#">美甲工具</a></li>
+							<li><a href="#">其他</a></li>
+						</ul>
+					</li>
+				</ul>
+				</div>
+			</div>
+			<!---------------->
+		
+		
+		
+		
+		<!--以下是主页中部主体样式---->
+		<div class="mainContainer">
+			<div class="banner">
+				<h2> 活动 Hot Promotion 每天10点上新，逛MEMEBOX从活动先来！</h2>
+				<a href="#"><img src="img/HomePage-img/banner-img/20161099103920161008-长假归来，我还是个职业小白领--banner-1176x250.jpg"/></a>
+				<a href="#"><img src="img/HomePage-img/banner-img/20160929-_-_--banner-1176x250.jpg"/></a>
+				<a href="#"><img src="img/HomePage-img/banner-img/20169299154020160923-十月换季换新妆-美美箱惊喜上新--banner-1176x250.jpg"/></a>
+				<a href="#"><img src="img/HomePage-img/banner-img/201693018132020160930-长假high-翻天，长痘怎么办？--banner-1176x250.jpg"/></a>
+				<a href="#"><img src="img/HomePage-img/banner-img/2016930181434周5_面膜_1176x250.jpg"/></a>
+				<a href="#"><img src="img/HomePage-img/banner-img/2016930184137cnshop_1006_Quickmakeup_Main_Fixbanner_1176x250.jpg"/></a>
+				<a href="#"><img src="img/HomePage-img/banner-img/201693018562420160930-收拾好心情,开工啦- - meme-founder-好物--banner-1176x250.jpg"/></a>
+				<a href="#"><img src="img/HomePage-img/banner-img/201693017468cnshop_10.4-Main_Fixbanner_red-lip-promotion_1176x250.jpg"/></a>
+				<h2 class="lasth">新品尝鲜 每天10点上新，逛MEMEBOX从闪购开始！</h2>
+			</div>
+		</div>
+		<div class="goodsListBox">
+			<div class="fastChinaCang">
+				<img src="img/HomePage-img/file_14.jpg"/>
+				<ul>
+					<!--数据加载商品-->
+					<!--<li>
+						<a href="#" title="春雨 黑面膜1盒" target="_blank">
+							<span class="type"></span>
+							<img src="img/product-img/p93_2_1.png" alt="春雨 黑面膜1盒">
+							<h4 class="goodsh4">PAPA RECIPE</h4>
+							<h3 class="goodsh3">春雨 黑面膜1盒</h3>
+						</a>
+			
+						<div class="goodsPrice">
+			                     <span class="newPrice">¥99.00</span>
+								<span class="oldPrice">¥140.00</span>
+								<!--<span class="mmPrice">美美箱优惠价</span>-->
+								<!--<span class="df">立省 ¥41.00</span>
+								<button type="button" title="加入购物车" id="xxx">加入购物车</button>
+						</div>
+					</li>-->
+					
+					
+				</ul>
+			</div>
+			<div class="KoreaSouth">
+				<img src="img/HomePage-img/__1176x387.jpg"/>
+				<ul>
+					<!--数据加载商品-->
+				</ul>
+			</div>
+			<div class="duty_free">
+				<img src="img/HomePage-img/cnpb_3.3_pony-effect2_mainbanner.jpg"/>
+				<ul>
+					<!--数据加载商品-->
+				</ul>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		<!---------------->
+		
+		
+		<!--以下是公共右边侧边栏----->
+		<div class="windowRigtht">
+			<ul>
+				<li>
+					<a href="#" id="cart_logo"><span><i class="mbarsmallICon"></i>购物车</span><div class="carnum">0</div></a>
+				</li>
+				<li>
+					<a href="#" id="perInfo_logo"><i class="mbarsmallICon"></i>
+						<div class="animateBox">
+							<div>
+								个人中心
+							</div>
+							<span></span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#"  id="collection_logo"><i class="mbarsmallICon"></i>
+						<div class="animateBox">
+							<div>
+								我的收藏
+							</div>
+							<span></span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#" id="order_logo"><i class="mbarsmallICon"></i>
+						<div class="animateBox">
+							<div>
+								我的订单
+							</div>
+							<span></span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#" id="inlineService_logo"><i class="mbarsmallICon"></i>
+						<div class="animateBox">
+							<div>
+								在线客服
+							</div>
+							<span></span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#"  id="goTop_logo"><i class="mbarsmallICon"></i>
+						<div class="animateBox">
+							<div>
+								回到顶部
+							</div>
+							<span></span>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+			<!--以下是侧边栏购物车-->
+			<div class="fixedCart">
+				<div class="cartTitle">
+					<span>购物车</span>
+					<i class="fixedCartLogo"></i>
+				</div>
+				<div class="cartWarp">
+					<div class="cartContent">
+						<ul>
+						</ul>
+					</div>
+					<div class="cartFoot">
+	                        <div class="cart-sum-left">
+	                            共<span class="cart-sumNum">0</span>件商品
+	                        	</div>
+	                        <div class="cart-sum-right">
+	                            总计：<span class="cart-sumPrice">¥0.00</span>
+	                        </div>
+	                        <a class="cart-sum-pay" href="cart.html">去购物车结算</a>
+					</div>
+				</div>
+			</div>
+			
+			<!--以上是侧边栏购物车-->
+		
+		
+		
+		
+		<!--以下是公共底部------>
+			<div class="footer">
+				<div class="first_row">
+					<div class="f_l">
+						<div class="img">
+							<img src="img/footer-img/footer-img/genuine.png"/>
+						</div>
+						<div class="word">
+							100%正品
+						</div>
+					</div>
+					<div class="f_l">
+						<img src="img/footer-img/footer-img/low.png"/>
+						<div class="word">
+							优质低价
+						</div>
+					</div>
+					<div class="f_l">
+						<img src="img/footer-img/footer-img/deliver.png"/>
+						<div class="word">
+							极速发货
+						</div>
+					</div>
+					<div class="f_l">
+						<img src="img/footer-img/footer-img/refund.png"/>
+						<div class="word">
+							退换无忧
+						</div>
+					</div>
+				</div>
+				
+				<div class="second_row">
+					<div class="sec_wrap_first">
+						<div class="wrap_first_top">
+							<img src="img/footer-img/footer-img/szj.jpg"/>
+						</div>
+						<div class="wrap_first_middle">
+							关于我们
+						</div>
+						<div class="wrap_first_bottom">
+							<img src="img/footer-img/footer-img/meme.png"/>
+							<img src="img/footer-img/footer-img/wechat.png"/>
+							<img src="img/footer-img/footer-img/sina.png"/>
+						</div>
+					</div>
+					<div class="sec_wrap_second">
+						<ul>
+							<li class="sec_title">关于美美箱</li>
+							<li><a href="#">美美全球</a></li>
+							<li><a href="#">品牌优势</a></li>
+							<li><a href="#">消费保障</a></li>
+						</ul>
+						<ul>
+							<li class="sec_title">帮助中心</li>
+							<li><a href="#">常见问题</a></li>
+							<li><a href="#">账户相关</a></li>
+							<li><a href="#">包邮政策</a></li>
+							<li><a href="#">支付相关</a></li>
+							<li><a href="#">物流相关</a></li>
+							<li><a href="#">退换政策</a></li>
+						</ul>
+						<ul>
+							<li class="sec_title">服务协议</li>
+							<li><a href="#">服务协议</a></li>
+							<li><a href="#">个人网申协议</a></li>
+						</ul>
+						<ul>
+							<li class="sec_title">联系我们</li>
+							<li><a href="#">商务合作</a></li>
+							<li><a href="#">分销合作</a></li>
+							<li><a href="#">加入我们</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				
+				<div class="third_row">
+						<div class="third_row_top">
+							联系客服
+						</div>
+						<div class="third_row_bottom">
+							<span>
+								客服时间：周一~周日(9:00&nbsp;-&nbsp;21:00)
+							</span>
+							<span>
+								客服热线: 400-720-9967
+							</span>
+							<span>
+								客服邮箱 :kf@memeboxglobal.com
+							</span>
+						</div>
+					</div>
+				<div class="fourth_row">
+						<span class="left">&copy;2015 Memebox Corporation. All Rights Reserved.</span>
+						<div class="fourth_row_right">
+							<a href="#"><img src="img/footer-img/footer-img/icon.gif"/></a>
+							<span>蜜米柏克思（上海）商贸有限公司 上海市杨浦区政立路415号中航天盛广场A座6楼 沪ICP备14043341号</span>
+						</div>
+				</div>
+			</div>
+	</body>
+</html>

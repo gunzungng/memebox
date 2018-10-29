@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车-美美箱Memebox</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
+		<script src="js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-3.0.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/publicJavascript.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/cartJavascript.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--以下为公共头部样式-->
+		<div class="header">
+			<div class="header_top">
+				<div class="header_top_left">
+					<span><a href="#"><i class="newhome_icon" id="topLogo_1"></i>100%韩国正品美美箱</a></span>
+					<span><a href="#"><i class="newhome_icon"  id="topLogo_2"></i><i class="top_left_underline">[每日签到]</i>&nbsp;&nbsp;每月累计签到满10次，即可获得5蜜豆</a></span>
+				</div>
+				<div class="header_top_right">
+					<span><a href="login.html">登录</a></span>
+					<span><a href="register.html">注册</a></span>
+					<span>|</span>
+					<span><a href="#"><i class="newhome_icon" id="topLogo_3"></i>手机APP</a></span>
+					<span><a href="#"><i class="newhome_icon" id="topLogo_4"></i>&nbsp;在线客服</a></span>
+				</div>
+			</div>
+		</div>
+		<!--以上是公共头部样式------->
+			
+		<!--以下是主体内容部分-->
+		<div class="mainCar">
+			<div class="title">
+				<a href="HomePage.html"><img src="img/footer-img/login-img/new-logo_memebox-china.png"/></a>
+				<img src="img/productInfo-img/sendorder.png"/>
+			</div>
+			<div class="carsList">
+				<table class="china">
+					<thead>
+						<tr>
+                            <th>
+            					<i class="me-smallIcon"></i>
+                                <span>中国仓</span>
+                              满99元包邮
+                            </th>
+                            <th>规格</th>
+                            <th>单价（元）</th>
+                            <th>数量</th>
+                            <th>金额（元）</th>
+                            <th>操作</th>
+                        </tr>
+					</thead>
+					<tbody>
+						<!--<tr class="hidenull">
+							<td style="text-align: center;" colspan="6">这里空空如也！</td>
+						</tr>-->
+						<!--以下为生成部分-->
+						<!--<tr id="">
+                            <td>
+                                <a href="#" title="告别PS底妆礼盒">
+                        			<img src="http://img-cn1001.memebox.com/media/catalog/product/cache/1/thumbnail/75x/9df78eab33525d08d6e5fb8d27136e95/_/p/_ps___.jpg" alt="告别PS底妆礼盒">
+                    			</a>
+                    			<h2>
+                                    <a href="http://cn.memebox.com/pb1610072">MEMEBOX&nbsp;告别PS底妆礼盒</a>
+                           		</h2>
+                            </td>
+                            <td>--</td>
+                            <td>¥199.00</td>
+                            <td class="carChangeNum">
+	       						<div>
+		            				<button class="substract">-</button>
+		            				<input value="1" readonly="true" type="text">
+		            				<button class="plus">+</button>
+	       						</div>
+    						</td>
+                            <td>¥199.00</td>
+                            <td><a href="#">移入我的收藏</a><a href="#">删除</a></td>
+                        </tr>-->
+                        <!--以上为生成部分-->
+					</tbody>
+					<tfoot>
+						<td colspan="6">
+							本仓总计：<span>¥0.00</span>
+						</td>
+					</tfoot>
+				</table>
+				
+				
+				<!--韩国仓-->
+				<table class="Korea">
+					<thead>
+						<tr>
+                            <th>
+            					<i class="me-smallIcon"></i>
+                                <span>韩国仓</span>
+                              	满249元包邮
+                            </th>
+                            <th>规格</th>
+                            <th>单价（元）</th>
+                            <th>数量</th>
+                            <th>金额（元）</th>
+                            <th>操作</th>
+                        </tr>
+					</thead>
+					<tbody>
+						<!--<tr class="hidenull">
+							<td style="text-align: center;" colspan="6">这里空空如也！</td>
+						</tr>						-->
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="6">
+								本仓总计：<span>¥0.00</span>
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+				<!--以上为表格-->
+				<div class="allGoodsPrice">
+					<div class="deleAll">
+						<i class="me-smallIcon"></i>
+						清空所有商品
+					</div>
+					<div class="btn">
+						<button>去结算</button>
+					</div>
+					<div class="allgp">
+						总计： <span>¥0.00</span>  (不含运费)
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+			
+			
+		<!--以下是公共右边侧边栏----->
+		<div class="windowRigtht">
+			<ul>
+				<li>
+					<a href="#" id="cart_logo"><span><i class="mbarsmallICon"></i>购物车</span><div class="carnum">0</div></a>
+				</li>
+				<li>
+					<a href="#" id="perInfo_logo"><i class="mbarsmallICon"></i>
+						<div class="animateBox">
+							<div>
+								个人中心
+							</div>
+							<span></span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#"  id="collection_logo"><i class="mbarsmallICon"></i>
+						<div class="animateBox">
+							<div>
+								我的收藏
+							</div>
+							<span></span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#" id="order_logo"><i class="mbarsmallICon"></i>
+						<div class="animateBox">
+							<div>
+								我的订单
+							</div>
+							<span></span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#" id="inlineService_logo"><i class="mbarsmallICon"></i>
+						<div class="animateBox">
+							<div>
+								在线客服
+							</div>
+							<span></span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#"  id="goTop_logo"><i class="mbarsmallICon"></i>
+						<div class="animateBox">
+							<div>
+								回到顶部
+							</div>
+							<span></span>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		
+		<!--以下是侧边栏购物车-->
+			<div class="fixedCart">
+				<div class="cartTitle">
+					<span>购物车</span>
+					<i class="fixedCartLogo"></i>
+				</div>
+				<div class="cartWarp">
+					<div class="cartContent">
+						<ul>
+							
+							
+							<!--以下为生成部分-->
+							<!--<li>
+								<p>中国仓</p>
+								<div class="smImg"><img src="img/product-img/0002.png"/></div>
+								<div class="smInfo">
+									<a class="smAgo" href="productInfo.html？xxxx">Pony&nbsp;青春幻彩系列面膜</a>
+									<div class="smChangeNum">
+										<i class="smLess"></i><span >0</span><i class="smMore"></i>
+									</div>
+									<div class="smPrice">
+										<span>¥199.00</span>
+									</div>
+									<i class="smDele"></i>
+								</div>
+							</li>-->
+							
+							
+						</ul>
+					</div>
+					<div class="cartFoot">
+	                        <div class="cart-sum-left">
+	                            共<span class="cart-sumNum">0</span>件商品
+	                        	</div>
+	                        <div class="cart-sum-right">
+	                            总计：<span class="cart-sumPrice">¥0.00</span>
+	                        </div>
+	                        <a class="cart-sum-pay" href="cart.html">去购物车结算</a>
+					</div>
+				</div>
+			</div>
+			<!--以上是侧边栏购物车-->
+		
+		<!--以下是公共底部------>
+			<div class="footer">
+				<div class="first_row">
+					<div class="f_l">
+						<div class="img">
+							<img src="img/footer-img/footer-img/genuine.png"/>
+						</div>
+						<div class="word">
+							100%正品
+						</div>
+					</div>
+					<div class="f_l">
+						<img src="img/footer-img/footer-img/low.png"/>
+						<div class="word">
+							优质低价
+						</div>
+					</div>
+					<div class="f_l">
+						<img src="img/footer-img/footer-img/deliver.png"/>
+						<div class="word">
+							极速发货
+						</div>
+					</div>
+					<div class="f_l">
+						<img src="img/footer-img/footer-img/refund.png"/>
+						<div class="word">
+							退换无忧
+						</div>
+					</div>
+				</div>
+				
+				<div class="second_row">
+					<div class="sec_wrap_first">
+						<div class="wrap_first_top">
+							<img src="img/footer-img/footer-img/szj.jpg"/>
+						</div>
+						<div class="wrap_first_middle">
+							关于我们
+						</div>
+						<div class="wrap_first_bottom">
+							<img src="img/footer-img/footer-img/meme.png"/>
+							<img src="img/footer-img/footer-img/wechat.png"/>
+							<img src="img/footer-img/footer-img/sina.png"/>
+						</div>
+					</div>
+					<div class="sec_wrap_second">
+						<ul>
+							<li class="sec_title">关于美美箱</li>
+							<li><a href="#">美美全球</a></li>
+							<li><a href="#">品牌优势</a></li>
+							<li><a href="#">消费保障</a></li>
+						</ul>
+						<ul>
+							<li class="sec_title">帮助中心</li>
+							<li><a href="#">常见问题</a></li>
+							<li><a href="#">账户相关</a></li>
+							<li><a href="#">包邮政策</a></li>
+							<li><a href="#">支付相关</a></li>
+							<li><a href="#">物流相关</a></li>
+							<li><a href="#">退换政策</a></li>
+						</ul>
+						<ul>
+							<li class="sec_title">服务协议</li>
+							<li><a href="#">服务协议</a></li>
+							<li><a href="#">个人网申协议</a></li>
+						</ul>
+						<ul>
+							<li class="sec_title">联系我们</li>
+							<li><a href="#">商务合作</a></li>
+							<li><a href="#">分销合作</a></li>
+							<li><a href="#">加入我们</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				
+				<div class="third_row">
+						<div class="third_row_top">
+							联系客服
+						</div>
+						<div class="third_row_bottom">
+							<span>
+								客服时间：周一~周日(9:00&nbsp;-&nbsp;21:00)
+							</span>
+							<span>
+								客服热线: 400-720-9967
+							</span>
+							<span>
+								客服邮箱 :kf@memeboxglobal.com
+							</span>
+						</div>
+					</div>
+				<div class="fourth_row">
+						<span class="left">&copy;2015 Memebox Corporation. All Rights Reserved.</span>
+						<div class="fourth_row_right">
+							<a href="#"><img src="img/footer-img/footer-img/icon.gif"/></a>
+							<span>蜜米柏克思（上海）商贸有限公司 上海市杨浦区政立路415号中航天盛广场A座6楼 沪ICP备14043341号</span>
+						</div>
+				</div>
+			</div>
+	</body>
+</html>

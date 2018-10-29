@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户登录-美美箱Memebox</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/loginRegisterPublicStyle.css"/>
+		<script src="js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-3.0.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/loginJavascript.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="box">
+			<div class="header">
+				<h2><a href="HomePage.html"><img src="img/loginRegiset-img/new-logo_memebox-china.png"/></a></h2>
+			</div>
+			<div class="content">
+				<!--以下是登录部分内容-->
+				<div class="login_box">
+					<div class="login_content">
+						<p>登录MEMEBOX帐号</p>
+						<a class="register" onclick="window.location='register.html';">立即免费注册&gt;&gt;</a>
+						<ul class="form_list">
+							<li class="login_li"><input type="text"  id="erroyMessage" readonly="ture" value=""/>
+							</li>
+							<li class="login_li">
+								<input type="text" name="username" id="username" value="" placeholder="请输入账号"/>
+							</li>
+							<li class="login_li">
+								<input type="password" name="password" id="password" value="" placeholder="请输入密码"/>
+							</li>
+							<li class="login_li">
+								<input type="button" id="btn" value="登录" />
+							</li>
+							<li class="login_li">
+								<a href="http://cn.memebox.com/customer/account/forgotpassword/">忘记密码?</a>
+							</li>
+						</ul>
+					</div>
+					<div class="line">
+						<span>
+								第三方账号登录：
+						</span>
+						<a id="wechat" href="http://cn.memebox.com/sns/wechat/login"></a>
+						<a id="weibo" href="http://cn.memebox.com/sns/weibo/login"></a>
+						<a id="qq" href="http://cn.memebox.com/sns/qq/login"></a>
+					</div>
+				</div>
+				<!--以上是登录部分内容-->
+			</div>
+			
+			
+			<!--以下是公共底部-->
+			<div class="footer">
+				<div class="first_row">
+					<div class="f_l">
+						<div class="img">
+							<img src="img/footer-img/footer-img/genuine.png"/>
+						</div>
+						<div class="word">
+							100%正品
+						</div>
+					</div>
+					<div class="f_l">
+						<img src="img/footer-img/footer-img/low.png"/>
+						<div class="word">
+							优质低价
+						</div>
+					</div>
+					<div class="f_l">
+						<img src="img/footer-img/footer-img/deliver.png"/>
+						<div class="word">
+							极速发货
+						</div>
+					</div>
+					<div class="f_l">
+						<img src="img/footer-img/footer-img/refund.png"/>
+						<div class="word">
+							退换无忧
+						</div>
+					</div>
+				</div>
+				
+				<div class="second_row">
+					<div class="sec_wrap_first">
+						<div class="wrap_first_top">
+							<img src="img/footer-img/footer-img/szj.jpg"/>
+						</div>
+						<div class="wrap_first_middle">
+							关于我们
+						</div>
+						<div class="wrap_first_bottom">
+							<img src="img/footer-img/footer-img/meme.png"/>
+							<img src="img/footer-img/footer-img/wechat.png"/>
+							<img src="img/footer-img/footer-img/sina.png"/>
+						</div>
+					</div>
+					<div class="sec_wrap_second">
+						<ul>
+							<li class="sec_title">关于美美箱</li>
+							<li><a href="#">美美全球</a></li>
+							<li><a href="#">品牌优势</a></li>
+							<li><a href="#">消费保障</a></li>
+						</ul>
+						<ul>
+							<li class="sec_title">帮助中心</li>
+							<li><a href="#">常见问题</a></li>
+							<li><a href="#">账户相关</a></li>
+							<li><a href="#">包邮政策</a></li>
+							<li><a href="#">支付相关</a></li>
+							<li><a href="#">物流相关</a></li>
+							<li><a href="#">退换政策</a></li>
+						</ul>
+						<ul>
+							<li class="sec_title">服务协议</li>
+							<li><a href="#">服务协议</a></li>
+							<li><a href="#">个人网申协议</a></li>
+						</ul>
+						<ul>
+							<li class="sec_title">联系我们</li>
+							<li><a href="#">商务合作</a></li>
+							<li><a href="#">分销合作</a></li>
+							<li><a href="#">加入我们</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				
+				<div class="third_row">
+						<div class="third_row_top">
+							联系客服
+						</div>
+						<div class="third_row_bottom">
+							<span>
+								客服时间：周一~周日(9:00&nbsp;-&nbsp;21:00)
+							</span>
+							<span>
+								客服热线: 400-720-9967
+							</span>
+							<span>
+								客服邮箱 :kf@memeboxglobal.com
+							</span>
+						</div>
+					</div>
+				<div class="fourth_row">
+						<span class="left">&copy;2015 Memebox Corporation. All Rights Reserved.</span>
+						<div class="fourth_row_right">
+							<a href="#"><img src="img/footer-img/footer-img/icon.gif"/></a>
+							<span>蜜米柏克思（上海）商贸有限公司 上海市杨浦区政立路415号中航天盛广场A座6楼 沪ICP备14043341号</span>
+						</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,122 @@
+[
+	{
+		"id":"0001",
+		"type":1,
+		"brand":"Pony Effect",
+		"name":"轻奢丝绒口红 优雅",
+		"op":79,
+		"np":79,
+		"img":"img/product-img/0001.jpg",
+		"infoimg":"img/product-img/0001infoimg.jpg"
+	},
+	{
+		"id":"0002",
+		"type":2,
+		"brand":"PONY",
+		"name":"X MEMEBOX 闪耀蜜色4色眼影盘",
+		"op":320,
+		"np":320,
+		"img":"img/product-img/0002.png",
+		"infoimg":"img/product-img/0002infoimg.jpg"
+	},
+	{
+		"id":"0003",
+		"type":2,
+		"brand":"雅思兰黛",
+		"name":"雅思兰黛红石榴唇彩",
+		"op":139,
+		"np":99,
+		"img":"img/product-img/0003.jpg",
+		"infoimg":"img/product-img/0003infoimg.jpg"
+	},
+	{
+		"id":"0004",
+		"type":1,
+		"brand":"Pony Effect",
+		"name":"PONY水漾光泽口红",
+		"op":189,
+		"np":85,
+		"img":"img/product-img/0004.jpg",
+		"infoimg":"img/product-img/0004infoimg.jpg"
+	},
+	{
+		"id":"0005",
+		"type":2,
+		"brand":"JAYJUN",
+		"name":"JAYJUN 魅力唇彩",
+		"op":200,
+		"np":188,
+		"img":"img/product-img/0005.jpg",
+		"infoimg":"img/product-img/0005infoimg.jpg"
+	},
+	{
+		"id":"0006",
+		"type":1,
+		"brand":"JAYJUN",
+		"name":"东方柔顺发质护发素",
+		"op":169,
+		"np":127,
+		"img":"img/product-img/0006.jpg",
+		"infoimg":"img/product-img/0006infoimg.jpg"
+	},
+		{
+		"id":"0007",
+		"type":1,
+		"brand":"MEIMEIBOX",
+		"name":"青春幻彩面膜",
+		"op":99,
+		"np":69,
+		"img":"img/product-img/0007.jpg",
+		"infoimg":"img/product-img/0007infoimg.jpg"
+	},
+	{
+		"id":"0008",
+		"type":2,
+		"brand":"MEIMEIBOX",
+		"name":"水光保湿气垫CC霜 BB霜",
+		"op":59,
+		"np":59,
+		"img":"img/product-img/0008.jpg",
+		"infoimg":"img/product-img/0008infoimg.jpg"
+	},
+	{
+		"id":"0009",
+		"type":1,
+		"brand":"Pony Effect",
+		"name":"四色完美修容粉#自然色",
+		"op":129,
+		"np":99,
+		"img":"img/product-img/0009.jpg",
+		"infoimg":"img/product-img/0009infoimg.jpg"
+	},
+	{
+		"id":"0010",
+		"type":1,
+		"brand":"Pony Effect",
+		"name":"Pony时尚幻彩影粉",
+		"op":489,
+		"np":399,
+		"img":"img/product-img/0010.jpg",
+		"infoimg":"img/product-img/0010infoimg.jpg"
+	},
+	{
+		"id":"0011",
+		"type":2,
+		"brand":"PONY",
+		"name":"THAT GIRL梦幻甲油套装",
+		"op":178,
+		"np":178,
+		"img":"img/product-img/0011.jpg",
+		"infoimg":"img/product-img/0011infoimg.jpg"
+	},
+	{
+		"id":"0012",
+		"type":1,
+		"brand":"IM",
+		"name":"我爱魔法棒",
+		"op":68,
+		"np":58,
+		"img":"img/product-img/0012.png",
+		"infoimg":"img/product-img/0012infoimg.jpg"
+	}
+]

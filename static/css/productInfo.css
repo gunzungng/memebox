@@ -1,0 +1,172 @@
+/*
+ * 商品详情页样式表
+ * 
+ */
+
+
+.main{
+	width: 100%;
+	font-family: Arial,"微软雅黑";
+}
+.main>div{
+	width: 92%;
+	min-height: 80%;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 10px;
+    position: relative;
+}
+.main .imgShow{
+	height: 2868px;
+	min-width: 800px;
+	background: url(../img/productInfo-img/moredetails.png) no-repeat;
+	background-size: cover;
+	/*下部公共图片区*/
+}
+
+/*以下为中部主体样式*/
+.pdtTop .showImg{
+	float: left;
+	border: 1px solid #eee;
+    padding: 5px;
+    width: 45%;
+    min-width: 500px;
+    height: 45%;
+    min-height: 500px;
+    position: relative;
+}
+.pdtTop .showinfo{
+	min-width: 500px;
+	min-height: 500px;
+	margin-left: 20px;
+	float: left;
+	position: relative;
+	width: 52%;
+	right: 0px;
+	top: 0px;
+}
+.showinfo h1{
+    font-size: 22px;
+    line-height: 1;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.showinfo i{
+	font-style: normal;
+}
+.showinfo .cangku{
+    color: #aaa;
+    font-size: 12px;
+}
+.showinfo .cangku i{
+	background: url(../img/productInfo-img/local-car.png);
+	display: inline-block;
+	width: 14px;
+	height: 16px;
+	position: relative;
+	top: 3px;
+	margin-right: 5px;
+}
+.showinfo .peiceinfo{
+	width: 100%;
+	background: rgb(237,237,237);
+	margin-top: 25px;
+	padding: 5px 0;
+}
+.peiceinfo span{
+	display: block;
+	margin: 10px 10px;
+	width: 100%;
+	color: #aaa;
+    font-size: 14px
+}
+.peiceinfo span i{
+	margin-left: 25px;
+}
+.showinfo .topimg{
+	width: 100%;
+	background: rgb(247,247,247);
+}
+.peiceinfo .op i{
+	text-decoration: line-through;
+	font-size: 16px;
+}
+.peiceinfo .np i{
+	font-size: 24px;
+	color: rgb(255,80,115);
+	position: relative;
+	top: 3px;
+}
+.showinfo .buy{
+	position: relative;
+}
+ .buy span{
+ 	position: relative;
+ 	float: left;
+ 	margin: 10px;
+ 	top: -5px;
+	color: #aaa;
+    font-size: 14px
+}
+ .buy span i{
+ 	color: rgb(255,80,115);
+ }
+.buy a{
+    background: #f2f2f2;
+    width: 2em;
+    border:1px solid #aaa;
+    height: 26px;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    color: #333;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 26px;
+    float: left;
+}
+.buy a:hover{
+	color: rgb(255,80,115);
+}
+.buy #less{
+	margin-left: 15px;
+}
+.buy #more{
+	margin-right: 15px;
+}
+.buy input{
+	width: 2.5em;
+	height: 24px;
+    border:1px solid #aaa;
+    border-left: none;
+     border-right: none;
+    text-align: center;
+    color: #333;
+    outline: none;
+    float: left;
+    font-family: arial;
+    font-size: 16px;
+}
+.buy button{
+	background-color: #ffffff;
+    color: #ff5073;
+    border: 2px solid  #ff5073;
+    padding: 0 20px;
+    height: 45px;
+    line-height: 43px;
+    font-size: 16px;
+    margin-right: 15px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    transition: all 0.5s; 
+    -webkit-transition: all 0.5s; 
+    -moz-transition: all 0.5s; 
+    -o-transition: all 0.5s; 
+    cursor: pointer;
+}
+.buy button:hover{
+	background-color: #ff5073;
+	color: white;
+}
