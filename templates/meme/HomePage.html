@@ -1,15 +1,18 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8" />
 		<title>全球No.1韩国化妆品平台-美美箱Memebox</title>
-		<link rel="stylesheet" type="text/css" href="css/public.css"/>
-		<link rel="stylesheet" type="text/css" href="css/HomePage.css"/>
-		<script src="js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery-3.0.0.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/publicJavascript.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/HomePageJavascript.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="{% static 'css/public.css' %}"/>
+		<link rel="stylesheet" type="text/css" href="{% static 'css/HomePage.css' %}"/>
+		<script src="{% static 'js/jquery-1.12.3.js' %}" type="text/javascript" charset="utf-8"></script>
+		<script src="{% static 'js/jquery-3.0.0.js' %}" type="text/javascript" charset="utf-8"></script>
+		<script src="{% static 'js/jquery.cookie.js' %}" type="text/javascript" charset="utf-8"></script>
+		<script src="{% static 'js/publicJavascript.js' %}" type="text/javascript" charset="utf-8"></script>
+		<script src="{% static 'js/HomePageJavascript.js' %}" type="text/javascript" charset="utf-8"></script>
+{#        <script src="{% static 'js/test.js' %}" type="text/javascript" charset="utf-8"></script>#}
 	</head>
 	<body>
 		<!--以下为公共头部样式-->
@@ -18,7 +21,7 @@
 			<div class="header_top">
 				<div class="header_top_left">
 					<span><a href="#"><i class="newhome_icon" id="topLogo_1"></i>100%韩国正品美美箱</a></span>
-					<span><a href="#"><i class="newhome_icon"  id="topLogo_2"></i><i class="top_left_underline">[每日签到]</i>&nbsp;&nbsp;每月累计签到满10次，即可获得5蜜豆</a></span>
+					<span><a href="#"><i class="newhome_icon" id="topLogo_2"></i><i class="top_left_underline">[每日签到]</i>&nbsp;&nbsp;每月累计签到满10次，即可获得5蜜豆</a></span>
 				</div>
 				<div class="header_top_right">
 					<span><a href="login.html">登录</a></span>
@@ -31,15 +34,15 @@
 			<!---------------->
 			<div class="header_middle">
 				<div class="header_search">
-					<h3><a href="HomePage.html"><img src="img/HomePage-img/new-logo_memebox-china.png"/></a></h3>
+					<h3><a href="HomePage.html"><img src="{% static 'img/HomePage-img/new-logo_memebox-china.png'%}"></a></h3>
 					<div class="search_box">
-						<input type="text" id="search" value="" /><i class="newhome_icon" id="searchLogo"></i>
+						<input type="text" id="search" value=""><i class="newhome_icon" id="searchLogo"></i>
 					</div>
 					<div class="downlord_box">
 						<a href="#">
 						<i></i>
 						<div class="QRcode">
-							
+
 						</div>
 						</a>
 					</div>
@@ -109,7 +112,7 @@
 			</div>
 			</div>
 			<!--以上是公共头部样式------->
-			
+
 			<!--以下是轮播图部分-->
 			<div class="header_CarouselFigure">
 				<!--以下是轮播图-->
@@ -122,9 +125,9 @@
 					</ul>
 				<!--<div id="left">上一页</div>
 				<div id="right">下一页</div>此处不用-->
-					
+
 				</div>
-				
+
 				<!--以下是左边竖排nav-->
 				<div class="leftnav">
 					<ul>
@@ -211,28 +214,28 @@
 				</div>
 			</div>
 			<!---------------->
-		
-		
-		
-		
+
+
+
+
 		<!--以下是主页中部主体样式---->
 		<div class="mainContainer">
 			<div class="banner">
 				<h2> 活动 Hot Promotion 每天10点上新，逛MEMEBOX从活动先来！</h2>
-				<a href="#"><img src="img/HomePage-img/banner-img/20161099103920161008-长假归来，我还是个职业小白领--banner-1176x250.jpg"/></a>
-				<a href="#"><img src="img/HomePage-img/banner-img/20160929-_-_--banner-1176x250.jpg"/></a>
-				<a href="#"><img src="img/HomePage-img/banner-img/20169299154020160923-十月换季换新妆-美美箱惊喜上新--banner-1176x250.jpg"/></a>
-				<a href="#"><img src="img/HomePage-img/banner-img/201693018132020160930-长假high-翻天，长痘怎么办？--banner-1176x250.jpg"/></a>
-				<a href="#"><img src="img/HomePage-img/banner-img/2016930181434周5_面膜_1176x250.jpg"/></a>
-				<a href="#"><img src="img/HomePage-img/banner-img/2016930184137cnshop_1006_Quickmakeup_Main_Fixbanner_1176x250.jpg"/></a>
-				<a href="#"><img src="img/HomePage-img/banner-img/201693018562420160930-收拾好心情,开工啦- - meme-founder-好物--banner-1176x250.jpg"/></a>
-				<a href="#"><img src="img/HomePage-img/banner-img/201693017468cnshop_10.4-Main_Fixbanner_red-lip-promotion_1176x250.jpg"/></a>
+				<a href="#"><img src="{% static 'img/HomePage-img/banner-img/20161099103920161008-长假归来，我还是个职业小白领--banner-1176x250.jpg'%}"></a>
+				<a href="#"><img src="{% static 'img/HomePage-img/banner-img/20160929-_-_--banner-1176x250.jpg'%}"></a>
+				<a href="#"><img src="{% static 'img/HomePage-img/banner-img/20169299154020160923-十月换季换新妆-美美箱惊喜上新--banner-1176x250.jpg'%}"></a>
+				<a href="#"><img src="{% static 'img/HomePage-img/banner-img/201693018132020160930-长假high-翻天，长痘怎么办？--banner-1176x250.jpg'%}"></a>
+				<a href="#"><img src="{% static 'img/HomePage-img/banner-img/2016930181434周5_面膜_1176x250.jpg'%}"></a>
+				<a href="#"><img src="{% static 'img/HomePage-img/banner-img/2016930184137cnshop_1006_Quickmakeup_Main_Fixbanner_1176x250.jpg'%}"></a>
+				<a href="#"><img src="{% static 'img/HomePage-img/banner-img/201693018562420160930-收拾好心情,开工啦-&nbsp;-&nbsp;meme-founder-好物--banner-1176x250.jpg'%}"></a>
+				<a href="#"><img src="{% static 'img/HomePage-img/banner-img/201693017468cnshop_10.4-Main_Fixbanner_red-lip-promotion_1176x250.jpg'%}"></a>
 				<h2 class="lasth">新品尝鲜 每天10点上新，逛MEMEBOX从闪购开始！</h2>
 			</div>
 		</div>
 		<div class="goodsListBox">
 			<div class="fastChinaCang">
-				<img src="img/HomePage-img/file_14.jpg"/>
+				<img src="{% static 'img/HomePage-img/file_14.jpg'%}">
 				<ul>
 					<!--数据加载商品-->
 					<!--<li>
@@ -242,7 +245,7 @@
 							<h4 class="goodsh4">PAPA RECIPE</h4>
 							<h3 class="goodsh3">春雨 黑面膜1盒</h3>
 						</a>
-			
+
 						<div class="goodsPrice">
 			                     <span class="newPrice">¥99.00</span>
 								<span class="oldPrice">¥140.00</span>
@@ -251,34 +254,34 @@
 								<button type="button" title="加入购物车" id="xxx">加入购物车</button>
 						</div>
 					</li>-->
-					
-					
+
+
 				</ul>
 			</div>
 			<div class="KoreaSouth">
-				<img src="img/HomePage-img/__1176x387.jpg"/>
+				<img src="{% static 'img/HomePage-img/__1176x387.jpg'%}">
 				<ul>
 					<!--数据加载商品-->
 				</ul>
 			</div>
 			<div class="duty_free">
-				<img src="img/HomePage-img/cnpb_3.3_pony-effect2_mainbanner.jpg"/>
+				<img src="{% static 'img/HomePage-img/cnpb_3.3_pony-effect2_mainbanner.jpg'%}">
 				<ul>
 					<!--数据加载商品-->
 				</ul>
 			</div>
 		</div>
-		
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
 		<!---------------->
-		
-		
+
+
 		<!--以下是公共右边侧边栏----->
 		<div class="windowRigtht">
 			<ul>
@@ -296,7 +299,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#"  id="collection_logo"><i class="mbarsmallICon"></i>
+					<a href="#" id="collection_logo"><i class="mbarsmallICon"></i>
 						<div class="animateBox">
 							<div>
 								我的收藏
@@ -326,7 +329,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#"  id="goTop_logo"><i class="mbarsmallICon"></i>
+					<a href="#" id="goTop_logo"><i class="mbarsmallICon"></i>
 						<div class="animateBox">
 							<div>
 								回到顶部
@@ -359,55 +362,55 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<!--以上是侧边栏购物车-->
-		
-		
-		
-		
+
+
+
+
 		<!--以下是公共底部------>
 			<div class="footer">
 				<div class="first_row">
 					<div class="f_l">
 						<div class="img">
-							<img src="img/footer-img/footer-img/genuine.png"/>
+							<img src="{% static 'img/footer-img/footer-img/genuine.png'%}">
 						</div>
 						<div class="word">
 							100%正品
 						</div>
 					</div>
 					<div class="f_l">
-						<img src="img/footer-img/footer-img/low.png"/>
+						<img src="{% static 'img/footer-img/footer-img/low.png'%}">
 						<div class="word">
 							优质低价
 						</div>
 					</div>
 					<div class="f_l">
-						<img src="img/footer-img/footer-img/deliver.png"/>
+						<img src="{% static 'img/footer-img/footer-img/deliver.png'%}">
 						<div class="word">
 							极速发货
 						</div>
 					</div>
 					<div class="f_l">
-						<img src="img/footer-img/footer-img/refund.png"/>
+						<img src="{% static 'img/footer-img/footer-img/refund.png'%}">
 						<div class="word">
 							退换无忧
 						</div>
 					</div>
 				</div>
-				
+
 				<div class="second_row">
 					<div class="sec_wrap_first">
 						<div class="wrap_first_top">
-							<img src="img/footer-img/footer-img/szj.jpg"/>
+							<img src="{% static 'img/footer-img/footer-img/szj.jpg'%}">
 						</div>
 						<div class="wrap_first_middle">
 							关于我们
 						</div>
 						<div class="wrap_first_bottom">
-							<img src="img/footer-img/footer-img/meme.png"/>
-							<img src="img/footer-img/footer-img/wechat.png"/>
-							<img src="img/footer-img/footer-img/sina.png"/>
+							<img src="{% static 'img/footer-img/footer-img/meme.png'%}">
+							<img src="{% static 'img/footer-img/footer-img/wechat.png'%}">
+							<img src="{% static 'img/footer-img/footer-img/sina.png'%}">
 						</div>
 					</div>
 					<div class="sec_wrap_second">
@@ -439,8 +442,8 @@
 						</ul>
 					</div>
 				</div>
-				
-				
+
+
 				<div class="third_row">
 						<div class="third_row_top">
 							联系客服
@@ -458,9 +461,9 @@
 						</div>
 					</div>
 				<div class="fourth_row">
-						<span class="left">&copy;2015 Memebox Corporation. All Rights Reserved.</span>
+						<span class="left">©2015 Memebox Corporation. All Rights Reserved.</span>
 						<div class="fourth_row_right">
-							<a href="#"><img src="img/footer-img/footer-img/icon.gif"/></a>
+							<a href="#"><img src="{% static 'img/footer-img/footer-img/icon.gif'%}"></a>
 							<span>蜜米柏克思（上海）商贸有限公司 上海市杨浦区政立路415号中航天盛广场A座6楼 沪ICP备14043341号</span>
 						</div>
 				</div>
