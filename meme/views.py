@@ -1,8 +1,19 @@
 from django.shortcuts import render
 
 # Create your views here.
+from meme.models import Lunbo, Productinfo
+
+
 def HomePage(request):
-    return render(request,'meme/HomePage.html')
+    lunbos=Lunbo.objects.all()
+    productinfos=Productinfo.objects.all()
+    data={'lunbos':lunbos,
+          'productinfos':productinfos
+
+    }
+
+    return render(request,'meme/HomePage.html',context=data
+                  )
 
 
 def login(request):
